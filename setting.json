@@ -2,10 +2,10 @@
 	"hooks": {
 		"PreToolUse": [
 			{
-				"matcher": "Bash",
+				"matcher": "Agent|Task",
 				"hooks": {
 					"type": "command",
-					"command": "C:/"
+					"command": "C:/tools/argonauti/hook.exe"
 				}
 			}
 		],
