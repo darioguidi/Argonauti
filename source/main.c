@@ -1,5 +1,10 @@
 #include <stdio.h>
 
 int main() {
-	return 1;
+	char buffer[256];
+
+	// Read stdin 
+	while(fgets(buffer, sizeof buffer, stdin)){
+		
+	}
 }
